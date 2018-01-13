@@ -15,8 +15,9 @@ urlpatterns = [
     # User management
     url(r'^users/', include('directmail.users.urls', namespace='users')),
     url(r'^accounts/', include('allauth.urls')),
+    url(r'^services/delivery_letter/', include('directmail.services.delivery_letter.urls', namespace='delivery_letter')),
 
-    # Your stuff: custom urls includes go here
+                  # Your stuff: custom urls includes go here
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
