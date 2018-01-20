@@ -1,0 +1,29 @@
+[
+  {
+    "model": "delivery_letter.DeliveryType",
+    "pk": 1,
+    "fields": {
+      "name": "Распечатать и разослать",
+      "price": "50",
+      "description": "Lennon"
+    }
+  },
+  {
+    "model": "delivery_letter.DeliveryType",
+    "pk": 2,
+    "fields": {
+      "name": "Только разослать",
+      "price": "25",
+      "description": "Lennon"
+    }
+  },
+  {
+    "model": "delivery_letter.DeliveryType",
+    "pk": 3,
+    "fields": {
+      "name": "Создать письмо и разослать",
+      "price": "100",
+      "description": "Lennon"
+    }
+  }
+]
